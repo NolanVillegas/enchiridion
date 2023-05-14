@@ -8,16 +8,16 @@ default: only addition to code is needed
 input triggers explanation + options until command is finished.
 additions will be added as topic are covered. */
 
-namespace cmdZero {
+namespace toolZero {
     int initializeProSpec() {
         string entspec;
         vector<string> example1 = {"example1"};
         vector<string> example2 = {"example2"};
         vector<string> example3 = {"example3"};
-        vector<vector<string>> programSpec;
-        programSpec.push_back(example1);
-        programSpec.push_back(example2);
-        programSpec.push_back(example3);
+        vector<vector<string>> toolSpec;
+        toolSpec.push_back(example1);
+        toolSpec.push_back(example2);
+        toolSpec.push_back(example3);
 
 
         cout << "Input: ";
@@ -26,6 +26,36 @@ namespace cmdZero {
 
     }
 }
+
+namespace commandOne {
+
+}
+
+namespace commandTwo {
+
+}
+
+namespace flagOne {
+
+}
+
+namespace flagTwo {
+    
+}
+
+namespace flagThree {
+    
+}
+
+namespace flagFour {
+    
+}
+
+namespace flagTARGET {
+    
+}
+
+
 
 void main() {
     // string 
